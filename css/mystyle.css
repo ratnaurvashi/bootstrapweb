@@ -1,0 +1,86 @@
+/*google fonts css*/
+#googlefont{
+    background-image: url(../image/img.jpg);
+    background-size: cover;
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 50px;
+    color: black;
+}
+
+p{
+font-family: 'Playball', cursive;
+font-size: 25px;
+color: white;
+}
+
+/*footer css*/
+footer{
+    color:black;
+    background-color: white;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+a{
+    color: black;
+}
+
+/*jumbotron css*/
+.jumbotron {
+    background-color:black !important; 
+}
+
+.jumbotron p,h1{
+    color: maroon;
+}
+.container{
+    margin:180px 0 0 0;
+    padding:0 0 0 0;
+    width:100%;
+    text-align: center;
+    justify-content: center;
+}
+
+/*video css*/
+.embed-container { 
+    position: relative;
+    padding-bottom: 44%; 
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    margin-left:25%;
+    width: 50vw;
+    height: 40vw; 
+}
+
+/*carousel css*/
+.carousel-item{
+    margin-left:25%;
+    width: 50vw;
+    height: 30vw; 
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:crimson;
+    border-color: crimson;
+}
+.wrapper {
+    text-align: center;
+}
+
+.btn btn-primary{
+    position: absolute;
+    top: 50%;
+}
+
+.centerit, .modal-content{
+    justify-content: center;
+    text-align: center;
+}
+
